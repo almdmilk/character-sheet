@@ -1,0 +1,39 @@
+/* Custom styles for D&D Character Sheet */
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+    }
+    
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* General layout */
+.character-sheet {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Section styling */
+.section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+/* Form elements */
+.form-control {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .character-sheet {
+        padding: 0.5rem;
+    }
+} 
